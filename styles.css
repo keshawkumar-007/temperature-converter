@@ -1,0 +1,46 @@
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styling for the main content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Styling for the temperature converters */
+.converter {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for inputs and buttons */
+input {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
